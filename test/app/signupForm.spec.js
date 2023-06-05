@@ -34,7 +34,4 @@ describe('signUpFn', () => {
     expect(window.alert).toHaveBeenCalledWith('Las contraseñas no coinciden');
     expect(navigateTo).not.toHaveBeenCalled();
   });
-  //   it('Alert de error', () => {
-
-//   })
 });
