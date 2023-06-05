@@ -1,5 +1,6 @@
 /* eslint-disable import/no-unresolved */
 /* eslint-disable no-console */
+// LoginWithGithub
 import { GithubAuthProvider, signInWithPopup } from 'firebase/auth';
 import { auth } from './firebase.js';
 
